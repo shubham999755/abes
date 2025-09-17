@@ -1,0 +1,54 @@
+.container-box{
+
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+
+    gap:2px;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 2px solid black
+}
+
+.box{
+    width: 30px;
+    height: auto;
+    padding : 5px ;    
+
+    border : 2px solid black ;
+
+    background-color: rgb(230, 196, 153);
+}
+
+.box:nth-child(9){  
+    height: 30px;
+    
+    background-image: url("./UE_logo_icon_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.box:nth-child(1){    
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+    background-color: white;
+    border: none;    
+}
+
+.sub-box{
+    width: fit-content;
+    padding: 1px;
+
+    border : 2px solid black ;
+    background-color: rgb(230, 196, 153);
+}
